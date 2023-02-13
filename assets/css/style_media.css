@@ -115,7 +115,7 @@
     .section03{background-image: url(../images/bg_gradation_m.png);background-size: 100% 50%;background-position: center bottom;}
     .newTit{margin-bottom: 24px;font-size: 24px;}
     .newsSlide .slick-list{max-width: 100%;margin: 0 auto;}
-    .newsSlide .slick-slide{padding-left: 27px;}
+    .newsSlide .slick-slide{max-width: 100%;padding-left: 0;}
     .newsInfo{margin-top: 11px;}
     .newsInfo .title{font-size: 18px;line-height: 25px;}
     .newsInfo .text{font-size: 14px;}
