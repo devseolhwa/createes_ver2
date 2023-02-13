@@ -117,6 +117,9 @@
     .newTit{margin-bottom: 24px;font-size: 24px;}
     .newsSlide .slick-list{width: 100%;/* width: 437px; */margin: 0 auto;}
     .newsSlide .slick-slide{width: 100%;padding-left: 27px;}
+    .newsSlide .slick-slide a{display: block;}
+    .newsThum .Thum{padding-top: 0;}
+    .newsThum .Thum img{position: inherit;}
     .newsInfo{margin-top: 11px;}
     .newsInfo .title{font-size: 18px;line-height: 25px;}
     .newsInfo .text{font-size: 14px;}
