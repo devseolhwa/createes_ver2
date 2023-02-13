@@ -91,7 +91,7 @@
     .visual .bgVideo video{top: 0;min-width: inherit;min-height: inherit;width: auto;height: 65vh;-webkit-transform: translate(-50%, 0);-moz-transform: translate(-50%, 0);-ms-transform: translate(-50%, 0);-o-transform: translate(-50%, 0);transform: translate(-50%, 0);}
     .visual .bgScrollText{top: 50px;}
     .visual .bgScrollText .textLine span{font-size: 7vh;line-height: 9vh;}
-    .visual .visualText01{bottom: 37%;left: 16px;overflow: inherit;}
+    .visual .visualText01{bottom: 37%;left: 16px;overflow: visible;}
     .visual .visualText01 p{line-height: 55px;}
     .visual .visualText02{bottom: 31%;left: 16px;}
     .visual .visualText03{bottom: 18%;left: 16px;right: auto;-webkit-transform: translateX(-60px);transform: translateX(-60px);}
