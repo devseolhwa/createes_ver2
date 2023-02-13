@@ -85,7 +85,8 @@
     .menuTop{display: none !important;}
     .topBtnGroup{right: 16px;top: 15px;}
     .topBtnGroup a{padding: 7px 9px;border-radius: 5px;font-size: 12px;font-weight: 700;}
-    
+
+    .section{max-height: 100vh;}
     .visual .bgVideo video{top: 0;min-width: inherit;min-height: inherit;width: auto;height: 65vh;-webkit-transform: translate(-50%, 0);-moz-transform: translate(-50%, 0);-ms-transform: translate(-50%, 0);-o-transform: translate(-50%, 0);transform: translate(-50%, 0);}
     .visual .bgScrollText{top: 50px;}
     .visual .bgScrollText .textLine span{font-size: 7vh;line-height: 9vh;}
