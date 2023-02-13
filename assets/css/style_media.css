@@ -74,9 +74,7 @@
 }
 @media screen and (max-width: 767px){
 
-    @supports (-webkit-appearance:none) and (stroke-color: transparent) {
-        min-height: -webkit-fill-available;
-    }
+    .fp-section.fp-table, .fp-slide.fp-table{height: 100vh !important;}
 
     *{cursor: inherit;}
     #cursor{display: none;}
