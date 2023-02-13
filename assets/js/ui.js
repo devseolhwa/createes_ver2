@@ -223,6 +223,7 @@ $(document).ready(function(){
             speed: 700,
             dots: false,
             infinite: true,
+            variableWidth: true,
             pauseOnHover: false,
             arrows: true,
             prevArrow: $(".newsArrow .prev"),
