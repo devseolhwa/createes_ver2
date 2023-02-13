@@ -17,7 +17,7 @@
         touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-
+.slick-slider {width: 1px; min-width: 100%; *width: 100%; }
 .slick-list
 {
     position: relative;
@@ -67,7 +67,7 @@
 }
 .slick-track:after
 {
-    clear: both;display: block;clear: both;
+    clear: both;
 }
 .slick-loading .slick-track
 {
