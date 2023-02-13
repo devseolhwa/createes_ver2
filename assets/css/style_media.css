@@ -86,16 +86,9 @@
     .menuTop{display: none !important;}
     .topBtnGroup{right: 16px;top: 15px;}
     .topBtnGroup a{padding: 7px 9px;border-radius: 5px;font-size: 12px;font-weight: 700;}
-
-    .fp-tableCell, .fp-section { min-height:530px !important;}
     
-    .visual .bgVideo{height: 100vh;height: -webkit-fill-available;height: fill-available;}
+    .visual .bgVideo{height: 100vh;height: var(--vh);}
     .visual .bgVideo video{top: 0;min-width: inherit;min-height: inherit;width: auto;height: 65vh;-webkit-transform: translate(-50%, 0);-moz-transform: translate(-50%, 0);-ms-transform: translate(-50%, 0);-o-transform: translate(-50%, 0);transform: translate(-50%, 0);}
-    .visual .bgVideo img{height: 100vh;height: -webkit-fill-available;height: fill-available;}
-    .visual .imgVisualMember img{height: 100vh;height: -webkit-fill-available;height: fill-available;}
-    .memberSlide .memberItem{height: 100vh;height: -webkit-fill-available;height: fill-available;}
-    .inner{min-height: 100vh;
-        min-height: -webkit-fill-available; }
     .visual .bgScrollText{top: 50px;}
     .visual .bgScrollText .textLine span{font-size: 7vh;line-height: 9vh;}
     .visual .visualText01{bottom: 37%;left: 16px;}

@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+    const setVh = () => {
+        document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`)
+    };
+    window.addEventListener('resize', setVh);
+    setVh();
+
     let ww = $(window).width();
     let html = $("html");
     let loading = $(".loading");
