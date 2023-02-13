@@ -117,10 +117,8 @@
     .sectionInner{max-width: 100%;}
     .newTit{margin-bottom: 24px;font-size: 24px;}
     .newsSlide .slick-list{width: 100%;/* max-width: 437px;margin: 0 auto; */}
-    .newsSlide .slick-slide{width: 100%;padding-left: 27px;}
+    .newsSlide .slick-slide{max-width: 100%;padding-left: 27px;}
     .newsSlide .slick-slide a{display: block;width: 100%;}
-    .newsThum .Thum{padding-top: 0;}
-    .newsThum .Thum img{position: inherit;}
     .newsInfo{margin-top: 11px;}
     .newsInfo .title{font-size: 18px;line-height: 25px;}
     .newsInfo .text{font-size: 14px;}
