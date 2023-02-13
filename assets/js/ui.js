@@ -222,7 +222,8 @@ $(document).ready(function(){
             $(".newsArrow .prev").addClass("slick-disabled");
         });
         $(".newsSlide").slick({
-            slidesToShow: 3,
+            mobileFirst: true,
+            slidesToShow: 1,
             slidesToScroll: 1,
             autoplay: true,
             autoplaySpeed: 3000,
@@ -237,14 +238,14 @@ $(document).ready(function(){
                 {
                     breakpoint: 1119,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 767,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 }
