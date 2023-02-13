@@ -92,7 +92,7 @@
     .visual .bgScrollText{top: 50px;}
     .visual .bgScrollText .textLine span{font-size: 7vh;line-height: 9vh;}
     .visual .visualText01{bottom: 37%;left: 16px;overflow: visible;}
-    .visual .visualText01 p{line-height: 55px;}
+    .visual .visualText01 p{line-height: 55px;overflow: visible;}
     .visual .visualText02{bottom: 31%;left: 16px;}
     .visual .visualText03{bottom: 18%;left: 16px;right: auto;-webkit-transform: translateX(-60px);transform: translateX(-60px);}
     .visual .visualText03 p{line-height: 21px;color: rgba(255, 255, 255, 0.8);}
