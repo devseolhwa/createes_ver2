@@ -75,9 +75,9 @@
 @media screen and (max-width: 767px){
 
     /* ios 이슈 */
-    /* body {min-height: 100vh;min-height: -webkit-fill-available;}
-    html {height: -webkit-fill-available;} */
-    @supports (-webkit-touch-callout: none) {height: -webkit-fill-available;}
+    body {min-height: 100vh;min-height: -webkit-fill-available;}
+    html {height: -webkit-fill-available;}
+     /*@supports (-webkit-touch-callout: none) {height: -webkit-fill-available;} */
 
     *{cursor: inherit;}
     #cursor{display: none;}
