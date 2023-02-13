@@ -116,6 +116,7 @@
     .newTit{margin-bottom: 24px;font-size: 24px;}
     .newsSlide .slick-list{width: 100%;/* max-width: 437px;margin: 0 auto; */}
     .newsSlide .slick-slide{width: 100%;padding-left: 27px;}
+    .newsSlide .slick-slide a{width: 100%;}
     .newsThum .Thum{padding-top: 0;}
     .newsThum .Thum img{position: inherit;}
     .newsInfo{margin-top: 11px;}
