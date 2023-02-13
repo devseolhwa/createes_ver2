@@ -87,7 +87,7 @@
     .topBtnGroup{right: 16px;top: 15px;}
     .topBtnGroup a{padding: 7px 9px;border-radius: 5px;font-size: 12px;font-weight: 700;}
     
-    .visual .bgVideo{height: 100vh;height: var(--vh);}
+    .visual .bgVideo{height: var(--vh);}
     .visual .bgVideo video{top: 0;min-width: inherit;min-height: inherit;width: auto;height: 65vh;-webkit-transform: translate(-50%, 0);-moz-transform: translate(-50%, 0);-ms-transform: translate(-50%, 0);-o-transform: translate(-50%, 0);transform: translate(-50%, 0);}
     .visual .bgScrollText{top: 50px;}
     .visual .bgScrollText .textLine span{font-size: 7vh;line-height: 9vh;}
@@ -97,6 +97,7 @@
     .visual .visualText03{bottom: 18%;left: 16px;right: auto;-webkit-transform: translateX(-60px);transform: translateX(-60px);}
     .visual .visualText03 p{line-height: 21px;color: rgba(255, 255, 255, 0.8);}
 
+    .memberSlide .memberItem{height: var(--vh);}
     .memberSlide .memberItem .memberimg{background-position: top center !important;}
     .member_simzzang{background-image: url(../images/img_simzzang_m.png);}
     .member_hakiwon{background-image: url(../images/img_hakiwon_m.png);}
