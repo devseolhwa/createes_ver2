@@ -80,14 +80,15 @@
     
     html,
     body {
-        height: 100vh;
-        height: var(--vh);
+        height: 100vh !important;
+        height: var(--vh) !important;
     }
-    .fp-section.fp-table, .fp-slide.fp-table, .fp-tableCell{
+    .fp-section.fp-table, .fp-slide.fp-table{
         /* Fallback for browsers that do not support Custom Properties */
         height: 100vh !important;
         height: var(--vh) !important;
     }
+    .fp-tableCell{height: 100vh !important;}
 
     *{cursor: inherit;}
     #cursor{display: none;}
