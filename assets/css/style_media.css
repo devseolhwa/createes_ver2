@@ -114,6 +114,7 @@
     .fixCrew{display: none;}
 
     .section03{background-image: url(../images/bg_gradation_m.png);background-size: 100% 50%;background-position: center bottom;}
+    .sectionInner{max-width: 100%;}
     .newTit{margin-bottom: 24px;font-size: 24px;}
     .newsSlide .slick-list{width: 100%;/* max-width: 437px;margin: 0 auto; */}
     .newsSlide .slick-slide{width: 100%;padding-left: 27px;}
