@@ -283,6 +283,7 @@ $(document).ready(function(){
         return false;
     });
 
+    // ios 사파리 height
     const setVh = () => {
         document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`)
     };
