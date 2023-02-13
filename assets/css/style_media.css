@@ -74,7 +74,7 @@
 }
 @media screen and (max-width: 767px){
 
-    .fp-section.fp-table, .fp-slide.fp-table{
+    .fp-section.fp-table, .fp-slide.fp-table, .fp-tableCell{
         height: 100vh !important; 
         /* Fallback for browsers that do not support Custom Properties */
         height: calc(var(--vh, 1vh) * 100) !important;
