@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    const setVh = () => {
+  /*   const setVh = () => {
         document.documentElement.style.setProperty('--vh', `${window.innerHeight}px`)
     };
     window.addEventListener('resize', setVh);
-    setVh();
+    setVh(); */
 
     let ww = $(window).width();
     let html = $("html");
