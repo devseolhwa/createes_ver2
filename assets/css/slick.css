@@ -67,7 +67,7 @@
 }
 .slick-track:after
 {
-    clear: both;
+    clear: both;display: block;clear: both;
 }
 .slick-loading .slick-track
 {
