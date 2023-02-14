@@ -75,7 +75,8 @@
                 <a href="#mailPopup" class="btnMailOpen"><span>Business.</span></a>
             </div><!-- menuLeft end -->
             <div class="topBtnGroup">
-                <a href="#crewPopup" class="btnCrewOpen"><span class="mobileHide">크루 신청하기</span><span class="mobileShow">크루 신청</span></a>
+                <!-- <a href="#crewPopup" class="btnCrewOpen"><span class="mobileHide">크루 신청하기</span><span class="mobileShow">크루 신청</span></a> -->
+                <a href="#"><span class="mobileHide">크루 신청하기</span><span class="mobileShow">크루 신청</span></a>
                 <a href="#mailPopup" class="btnMailOpen"><span class="mobileHide">사업 제휴 문의</span><span class="mobileShow">제휴 문의</span></a>
             </div>
         </header>
@@ -220,9 +221,10 @@
                     </div><!-- memberSlideControl -->
                 </div><!-- memberWrap end -->
                 <div class="fixCrew">
-                    <a href="#crewPopup" class="btnCrewOpen">
+                    <!-- <a href="#crewPopup" class="btnCrewOpen"> -->
+                    <a href="#">
                         <i class="gif01">?</i>
-                        <i class="gif02"></i>
+                        <i class="gif02"></i> 
                         <img src="assets/images/img_fixcrew_off.png" alt="">
                         <p>크리티스 크루 신청하기</p>
                     </a>
@@ -324,22 +326,19 @@
                         <script src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=gz4fnsfcdq"></script>
                         <div id="map" style="width: 100%;height: 421px;"></div>
                         <script>
-                            var position = new naver.maps.LatLng(37.521417, 127.039105);
                             var map = new naver.maps.Map('map', {
-                                center: position,
+                                center: new naver.maps.LatLng(37.521447, 127.039115),
                                 zoom: 17
                             });
-                            var markerOptions = {
-                                position: position,
+                            var defaultMarker = new naver.maps.Marker({
+                                position: new naver.maps.LatLng(37.521447, 127.039115),
                                 map: map,
                                 icon: {
-                                    url: 'assets/images/img_map_marker.png',
+                                    content: '<a href="https://naver.me/5AfXDeWS" target="_blank" title="새창열림"><img src="/assets/v2/images/img_map_marker.svg" alt="" class="markerAnchor" ></a>',
                                     size: new naver.maps.Size(117, 64),
-                                    origin: new naver.maps.Point(0, 0),
-                                    anchor: new naver.maps.Point(11, 35)
+                                    anchor: new naver.maps.Point(60, 50)
                                 }
-                            };
-                            var marker = new naver.maps.Marker(markerOptions);
+                            });
                         </script>
                         <!-- 네이버지도 end -->
                     </div><!-- mapBox end -->
@@ -386,7 +385,152 @@
                     <button type="button" class="btnPrivacyClose">닫기</button>
                 </div>
                 <div class="privacyContent">
-                    <p>이곳에 내용이 들어갑니다.</p>
+                    (주)크리티스(이하 ‘회사’)는 웹사이트(www.createes.co.kr) 이용 및 제반 서비스 제공 시 개인정보보호법령에 따라 지원자의 개인정보 보호 및 권익을 보호하고 지원자의 고충을 원활하게 처리할 수 있도록 다음과 같은 처리방침을 두고 있습니다.<br /><br />
+
+                    <p>[개인정보 수집에 대한 동의]</p>
+                    회사는 지원자가 개별 서비스 신청 시 개인정보 수집 및 이용에 동의할 수 있는 절차를 마련하고 있습니다. 지원자는 동의를 거부할 수 있으며 동의를 거부하는 경우 해당 서비스 이용이 제한될 수 있습니다.<br /><br />
+
+                    <p>[개인정보 수집 및 이용 목적]</p>
+                    회사가 지원자의 개인정보를 수집 및 이용하는 목적은 다음과 같습니다.
+                    <table class="privacyTable">
+                        <caption>개인정보 수집 및 이용 목적표</caption>
+                        <colgroup>
+							<col style="width: 20%;">
+							<col style="width: 80%;">
+						</colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col">이용목적</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col">크리에이터 지원 시</th>
+                                <td>
+                                    <ul class="dotList">
+                                        <li>크리에이터 지원 의사 확인 및 본인 식별, 서비스 부정이용 방지</li>
+                                        <li>각종 고지 및 안내, 분쟁 조정을 위한 기록 보존</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">브랜드 광고 제휴 문의 시</th>
+                                <td>
+                                    <ul class="dotList">
+                                        <li>브랜드 광고 제휴 문의에 따른 의사 확인 및 본인 식별, 서비스 부정이용 방지</li>
+                                        <li>각종 고지 및 안내, 분쟁 조정을 위한 기록 보존</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">IP사업 제휴 문의 시</th>
+                                <td>
+                                    <ul class="dotList">
+                                        <li>IP사업 제휴 문의에 따른 의사 확인 및 본인 식별, 서비스 부정이용 방지</li>
+                                        <li>각종 고지 및 안내, 분쟁 조정을 위한 기록 보존</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+
+                    <p>[개인정보 수집 항목 및 방법]</p>
+                    1) 회사는 기본적인 서비스 제공을 위한 필수 정보만을 수집하고 있으며, 선택 정보의 경우 입력하지 않더라도 서비스 이용이 제한되지 않습니다. 회사는 수집한 정보를 이용 목적 외의 목적으로 사용하지 않습니다.
+                    <table class="privacyTable">
+                        <caption>개인정보 수집 항목 및 방법표</caption>
+                        <colgroup>
+							<col style="width: 20%;">
+							<col style="width: 80%;">
+						</colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">구분</th>
+                                <th scope="col">이용목적</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col">크리에이터 지원 시</th>
+                                <td>
+                                    <ul class="dotList">
+                                        <li>(필수) 성명, 연락처(휴대전화번호), 이메일주소</li>
+                                        <li>(선택) SNS채널, 유튜브 채널. 운영 중인 플랫폼 관련 및 기타 정보</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">브랜드 광고 제휴 문의 시</th>
+                                <td>
+                                    <ul class="dotList">
+                                        <li>(필수) 담당자 성명, 기업(단체)명, 담당자 전화번호(휴대전화번호), 이메일</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th scope="col">IP사업 제휴 문의 시</th>
+                                <td>
+                                    <ul class="dotList">
+                                        <li>(필수) 담당자 성명, 기업(단체)명, 담당자 전화번호(휴대전화번호), 이메일</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+                    2) 회사는 홈페이지 지원 및 홈페이지를 통한 지원서류 작성으로 지원자의 개인정보를 수집합니다.<br /><br />
+
+                    <p>[개인정보 보유 및 이용기간]</p>
+                    회사는 지원자의 개인정보 수집 및 이용 동의일로부터 1년간 지원자의 개인정보를 처리 및 보유합니다. 단, 관계법령의 규정에 따라 개인정보를 보유하여야 할 필요가 있을 경우 일정기간 보유되며 이때 보유되는 개인정보의 열람 및 이용은 관계법령의 규정에 따라 제한됩니다.<br /><br />
+
+                    <p>[개인정보의 위탁 또는 제3자 제공]</p>
+                    1) 회사는 지원자의 개인정보를 타인 또는 타기업이나 기관 등 제3자에게 제공하지 않습니다.<br /><br />
+
+                    2) 회사는 지원자의 개인정보를 위탁하고 있지 않습니다. 다만 추후 서비스 향상을 위하여 지원자의 개인정보를 위탁하여 처리하게 되는 경우 사전에 이를 고지하고 위탁 계약 등을 통하여 수탁자를 관리하도록 하겠습니다.<br /><br />
+
+                    <p>[개인정보의 파기 절차 및 방법]</p>
+                    1) 회사는 원칙적으로 개인정보 처리 목적이 달성되어 개인정보 처리가 불필요하다고 인정되는 경우와 지원자가 개인정보의 파기를 요청한 경우에는 지체 없이 해당 개인정보를 파기합니다. 파기의 절차, 기한 및 방법은 다음과 같습니다.<br /><br />
+
+                    2) 파기대상인 정보는 목적 달성 후 별도 DB 또는 서류함으로 옮겨져 내부 방침 및 기타 관련 법령에 따라 지체없이 파기됩니다. 이때 내부 방침에 따라 별도DB 또는 문서로 옮겨진 개인정보는 법률에 의한 경우를 제외하고는 이용되지 않습니다.<br /><br />
+
+                    3) 지원자의 개인정보는 개인정보의 보유기간이 경과된 경우에는 보유기간의 종료일로부터 5일 이내에, 개인정보처리 목적달성, 해당 서비스의 폐지, 사업의 종료 등 그 개인정보가 불필요하게 되었을 때에는 개인정보 처리가 불필요한 것으로 인정되는 날로부터 5일 이내에 파기합니다.<br /><br />
+
+                    4) 전자적 파일 형태의 정보는 기록을 재생할 수 없는 기술적 방법을, 종이에 출력된 정보는 분쇄기로 분쇄하여 파기합니다.<br /><br />
+
+                    <p>[정보주체와 법정대리인의 권리 의무 및 그 행사방법에 관한 사항]</p>
+                    1) 정보주체는 회사에 대해 언제든지 아래 각 호의 권리를 행사할 수 있습니다.<br />
+                    <ul class="dotList">
+                        <li>1. 개인정보 열람 요구권</li>
+                        <li>2. 개인정보 정정, 삭제 요구권</li>
+                        <li>3. 개인정보 처리정지 요구권</li>
+                        <li>4. 개인정보 수집, 이용 등에 대한 동의 철회</li>
+                    </ul><br />
+                    2) 정보주체는 개인정보의 열람/정정/삭제/처리정지 요구 또는 동의 철회, 파기 요청을 하고자 하는 경우 하단의 개인정보보호책임자에게 요청할 수 있으며 회사는 이에 지체없이 필요한 조치를 취하도록 하겠습니다.<br /><br />
+
+                    3) 1항 및 2항에 따른 권리 행사는 정보주체 본인이 하여야 하며, 정보주체의 법정대리인이나 위임을 받은 자 등 대리인이 행사하고자 하는 경우 회사는 위임장 등의 추가 서류를 요청할 수 있습니다.<br /><br />
+
+                    4) 정보주체는 개인정보보호법령 등 관계법령을 위반하여 정보주체 본인 또는 타인의 개인정보를 사용하거나 침해하여서는 아니되며, 정보주체는 본인의 관리 하에 있는 정보를 본인의 책임 하에 관리하여야 합니다.<br /><br />
+
+                    <p>[개인정보 처리방침의 고지 또는 통지 방법]</p>
+                    회사는 지원자가 동의한 범위를 벗어나는 목적으로 개인정보를 이용하거나 제3자에게 제공하는 경우 개별적으로 지원자의 추가 동의를 얻도록 하겠습니다. 회사는 타인에게 개인정보의 처리를 위탁하는 경우 홈페이지 개인정보 처리방침을 통하여 사전에 이를 고지하도록 하겠습니다.<br /><br />
+
+                    <p>[개인정보 보호를 위한 기술적 관리적 대책]</p>
+                    1) 내부관리계획의 수립 및 시행 : 회사는 개인정보의 안전한 처리를 위하여 내부관리계획을 수립하고 시행하고 있습니다.<br /><br />
+
+                    2) 해킹 등에 대비한 기술적 대책 : 회사는 해킹이나 컴퓨터 바이러스 등에 의한 개인정보 유출 및 훼손을 방지하기 위하여 보안프로그램을 설치하고 주기적인 갱신, 점검 등을 수행하고 있습니다.<br /><br />
+
+                    3) 개인정보 처리 직원의 교육 : 개인정보 관련 처리 직원은 최소한의 인원으로 구성되며, 개인정보보호 의무에 관한 정기적인 교육과 내부 절차를 마련하고 있습니다.<br /><br />
+
+                    <p>[개인정보보호책임자]</p>
+                    회사는 지원자의 개인정보를 보호하고 고충처리를 위하여 개인정보 보호책임자를 정하고 있습니다.<br /><br />
+
+                    - 이름 : 홍성윤<br />
+                    - 직책 : 본부장<br />
+                    - 연락처 : 010-8914-1995<br />
+                    - 이메일 : <a href="mailto:createes.manager@gmail.com" class="mail">createes.manager@gmail.com</a><br /><br />
+
+                    본 개인정보처리방침은 2022년 12월 1일 제정되었습니다. 본 개인정보처리방침은 시행일로부터 적용되며, 법령 및 방침에 따른 변경 내용의 추가, 삭제, 정정이 있는 경우 변경사항의 시행일 7일 전부터, 지원자에게 불리하거나 중요한 내용의 경우 시행일 30일 전부터 고지하도록 하겠습니다.
                 </div>
             </div><!-- privacyContainer end -->
         </div><!-- privacyInner end -->

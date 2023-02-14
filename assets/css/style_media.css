@@ -14,6 +14,7 @@
     .newsSlide .slick-slide{padding-right: 0;padding-left: 40px;}
 
     .inner{padding: 165px 40px 150px 200px;}
+    .inner.sm{padding: 165px 0 150px 270px;}
 }
 @media screen and (max-width: 1199px){
 
@@ -56,7 +57,8 @@
     .sectionNum{right: 20px;bottom: 20px;width: 80px;height: 85px;}
     .sectionNum .sectionIndex, .sectionNum .sectionTotal{font-size: 26px;line-height: 40px;}
 
-    .inner{padding: 165px 20px 150px 20px;}
+    .inner{padding: 120px 20px 150px 20px;}
+    .inner.sm{padding: 120px 20px 150px 20px;}
     .boardThum{width: calc(35% - 27px);}
     .boardContents{width: 60%;}
     .boardTitle{font-size: 40px;line-height: 40px;}
@@ -131,7 +133,8 @@
     .mapInfo{margin-top: 0;margin-bottom: 21px;}
     .mapInfo li{padding-left: 30px;font-size: 13px;letter-spacing: -0.8px;}
     .mapInfo li.mail{margin-top: 4px;}
-    .mapBox #map{height: 345px !important;}
+    .mapBox #map{height: 325px !important;}
+    .mapBox #map .markerAnchor{width: 64px !important;height: 35px !important;margin-left: 20px !important;margin-top: 20px !important;cursor: inherit !important;}
 
     .footerPc{display: none;}
     .footerMobile{display: block;}
@@ -156,7 +159,11 @@
     .subject{font-size: 13px;}
     .btnPrivacyClose, .btnCrewClose{width: 46px;height: 28px;font-size: 12px;}
     .popTitGroup{padding-bottom: 12px;}
-    .privacyContent{min-height: 240px;margin-top: 20px;padding: 14px 8px;font-size: 12px;line-height: 17px;}
+    .privacyContent{padding: 14px 8px;font-size: 12px;line-height: 20px;}
+    .privacyContent .dotList li{padding-left: 9px;}
+    .privacyContent .dotList li:before{top: 9px;width: 3px;height: 3px;}
+    .privacyTable{font-size: 12px;line-height: 20px;}
+    .privacyTable th, .privacyTable td{padding: 5px 8px;}
     .crewContainer{padding: 20px;}
     .formGroup{margin: 10px 0;}
     .formGroup label{font-size: 12px;line-height: 30px;}
@@ -166,6 +173,7 @@
 
     #container{background-image: url(../images/bg_gradation_m.png);background-size: 100% 50%;background-position: center bottom;overflow: hidden;}
     .inner{padding: 95px 16px 130px 16px;}
+    .inner.sm{padding: 95px 16px 130px 16px;}
     .boardTitleWrap{margin-bottom: 29px;}
     .boardTitle{font-size: 24px;}
     .btnBoardList{width: 46px;height: 28px;line-height: 28px;font-size: 12px;}
@@ -173,6 +181,15 @@
     .boardContents{width: calc(100% - 27px);margin-left: 27px;}
     .boardContents .title{margin-top: 11px;margin-bottom: 22px; font-size: 18px;line-height: 25px;}
     .boardContents .text{font-size: 13px;line-height: 24px;}
+
+    .crewFormArea li{flex-direction: column;}
+    .crewFormArea li .half{width: 100%;}
+    .crewFormArea li .half + .half{margin-left: 0;margin-top: 10px;}
+    .crewFormArea input, .crewFormArea select, .crewFormArea textarea{font-size: 13px;}
+    .privacyAgreeWrap{margin-bottom: 17px;}
+    .privacyAgreeWrap .privacyAgreeText{font-size: 13px;line-height: 19px;}
+    .privacyAgreeWrap .privacyAgreeChk{margin-top: 25px;padding-left: 34px;}
+    .privacyAgreeWrap .privacyAgreeChk label:before{top: 8px;width: 24px;height: 24px;}
 
 }
 @media screen and (max-width: 320px){

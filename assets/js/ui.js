@@ -261,27 +261,32 @@ $(document).ready(function(){
     // 개인정보취급방침
     $(document).on("click", ".btnPrivacyOpen", function () {
         $("#privacyPopup").fadeIn("400").addClass("show");
+        $.fn.fullpage.setAllowScrolling(false); // 팝업 오픈시 back 스크롤 X
         return false;
     }).on("click", ".btnPrivacyClose", function () {
         $("#privacyPopup").removeClass("show");
+        $.fn.fullpage.setAllowScrolling(true); // 스크롤 되돌리기
         return false;
     });
     // 문의하기
     $(document).on("click", ".btnMailOpen", function () {
         $("#mailPopup").fadeIn("400").addClass("show");
+        $.fn.fullpage.setAllowScrolling(false);
         return false;
     }).on("click", ".btnMailClose", function () {
         $("#mailPopup").removeClass("show");
+        $.fn.fullpage.setAllowScrolling(true);
         return false;
     });
     // 크리티스 크루 신청하기
-    $(document).on("click", ".btnCrewOpen", function () {
+    /* $(document).on("click", ".btnCrewOpen", function () {
         $("#crewPopup").fadeIn("400").addClass("show");
         return false;
     }).on("click", ".btnCrewClose", function () {
         $("#crewPopup").removeClass("show");
         return false;
-    });
+    }); */
+    /* 페이지로 변경 */
 
     // ios 사파리 height
     const setVh = () => {
